@@ -1,0 +1,69 @@
+main {
+    min-height: 100vh;
+}
+
+#api {
+    padding: 2rem
+}
+
+.btn-primary {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: .6rem;
+    font-weight: bold;
+    transition: 300ms;
+    color: #515151;
+    background: goldenrod;
+}
+
+.btn-primary:hover {
+    background: dodgerblue;
+    color: snow;
+}
+
+
+/* form's style  */
+
+form {
+    width: 50%;
+}
+
+.api__list>table {
+    width: 100%;
+}
+
+
+/* api key manager's style  */
+
+.api__list>table td:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.api__list>table td:last-child button {
+    margin: 0 5px;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.api__list>table td:last-child button:first-child {
+    background-color: lightblue;
+}
+
+.api__list>table td:last-child button:last-child {
+    background-color: lightcoral;
+}
+
+.api__list h3 {
+    text-align: center;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #e5e5e5;
+    font: inherit;
+}
